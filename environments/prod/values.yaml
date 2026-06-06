@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: ghcr.io/sirajmoideen/uptime-monitor
+  tag: latest
+  pullPolicy: Always
+
+imagePullSecrets:
+  - name: ghcr-secret
+
+ingress:
+  host: uptime.local
