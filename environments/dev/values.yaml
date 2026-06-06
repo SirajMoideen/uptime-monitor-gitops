@@ -11,4 +11,4 @@ imagePullSecrets:
 containerPort: 5000
 
 ingress:
-  host: dev.uptime.local
+  host: uptime-dev.local
