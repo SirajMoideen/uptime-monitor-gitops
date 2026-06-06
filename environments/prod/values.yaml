@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: ghcr.io/sirajmoideen/uptime-monitor
-  tag: latest
+  tag: ba9d3c0c9e5884334a5fec1d86cea185ecf7854b
   pullPolicy: Always
 
 imagePullSecrets:
